@@ -1,0 +1,17 @@
+.name{
+    position: relative;
+}
+
+.name::before{
+    content: '';
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    background-color: #27A776;
+
+}
+.span{
+    color: green;
+}
