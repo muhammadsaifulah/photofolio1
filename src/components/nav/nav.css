@@ -8,7 +8,7 @@
     visibility: hidden;
     transition: all 0.2s;
     transform: translateY(10px);
-    z-index: 9999;
+    z-index: 222;
 }
 .gal:hover .sub-menu{
     visibility: visible;
@@ -66,4 +66,7 @@ visibility: visible;
 }
 .up{
   z-index: 222;
+}
+.clr{
+  color: blue;
 }

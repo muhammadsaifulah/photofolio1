@@ -1,0 +1,27 @@
+.bg-loader {
+    height: 100vh;
+    width: 50vw;
+    background: rgb(91, 83, 83);
+    position: fixed;
+    top: 0;
+    transition: all 0.8s;
+    z-index: 999;
+    overflow: hidden; /* Added overflow hidden to hide overflow when transitioning */
+}
+
+.second {
+    right: 0;
+}
+
+.line {
+    position: absolute;
+    width: 3px;
+    height: 0; /* Set the initial height to 0% */
+    transition: all 0.9s;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
