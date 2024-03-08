@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from '../../components/button/Button';
 import { TiHeartFullOutline } from 'react-icons/ti'; // Corrected import statement for the heart icon
-import './Services.css';
+import './services.css';
 import Slider from '../about/Slider';
 import { useLocation } from 'react-router-dom';
 import { Loader } from '../../components/loader/Loader';
