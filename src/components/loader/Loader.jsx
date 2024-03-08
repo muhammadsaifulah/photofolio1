@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './loader.css';
+import './Loader.css';
 import { useLocation } from 'react-router-dom';
 
 export const Loader = () => {
